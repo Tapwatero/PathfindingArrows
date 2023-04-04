@@ -1,0 +1,4 @@
+name: HomingArrows
+version: '${project.version}'
+main: dev.tapwatero.homingarrows.HomingArrows
+api-version: 1.19
