@@ -47,12 +47,6 @@ public final class HomingArrows extends JavaPlugin implements Listener {
         if (event.getEntity().getShooter() instanceof Player) {
             Player player = (Player) event.getEntity().getShooter();
 
-            if (player.getName().equals("5l5l2")) {
-                return;
-            }
-
-
-
             Entity entity = event.getEntity();
             Entity target = fetchTarget(entity, player);
 
